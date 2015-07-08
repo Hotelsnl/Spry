@@ -1,0 +1,30 @@
+{
+  "name": "hotelsnl-responsive",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-cssmin": "~0.8",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-nodeunit": "*",
+    "grunt-contrib-stylus": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-text-replace": "*",
+    "grunt-wrap": "^0.3.0",
+    "grunt-exec": "~0.4",
+    "matchdep": "^0.3.0",
+    "file": "0.2.2",
+    "bootstrap3-stylus": "0.1.0",
+    "underscore": "1.6.0",
+    "backbone": "1.1.2",
+    "jquery": "~1.11"
+  },
+  "description": "Hotels.nl Responsive",
+  "main": "Gruntfile.js",
+  "author": "Hotels.nl",
+  "repository": {
+    "type" : "git",
+    "url" : "git@github.com:Hotelsnl/templates.git"
+  }
+}
