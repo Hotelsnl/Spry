@@ -1,0 +1,35 @@
+{
+  "spry": {
+    "js": {
+      "src": [
+        "includes/SpryData.js",
+        "includes/SpryNestedXMLDataSet.js",
+        "includes/SpryUtils.js",
+        "includes/xpath.js",
+        "includes/SpryDOMUtils.js",
+        "widgets/tabbedpanels/SpryTabbedPanels.js",
+        "widgets/collapsiblepanel/SpryCollapsiblePanel.js",
+        "widgets/autosuggest/SpryAutoSuggest.js",
+        "widgets/textfieldvalidation/SpryValidationTextField.js",
+        "widgets/selectvalidation/SpryValidationSelect.js",
+        "widgets/checkboxvalidation/SpryValidationCheckbox.js",
+        "widgets/accordion/SpryAccordion.js",
+        "widgets/tooltip/SpryTooltip.js"
+      ],
+      "dest": "build/js/spry",
+      "rules": ["concat", "uglify"]
+    },
+    "css": {
+      "src": [
+        "widgets/autosuggest/SpryAutoSuggest.css",
+        "widgets/textfieldvalidation/SpryValidationTextField.css",
+        "widgets/selectvalidation/SpryValidationSelect.css",
+        "widgets/checkboxvalidation/SpryValidationCheckbox.css",
+        "widgets/accordion/SpryAccordion.css"
+      ],
+      "dest": "build/css/spry",
+      "rules": ["concat", "cssmin"],
+      "watch": ["frags/common/css/*.styl"]
+    }
+  }
+}

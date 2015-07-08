@@ -1,0 +1,19 @@
+{
+  "curly": true,
+  "strict": true,
+
+  "browser": true,
+  "jquery": true,
+
+  "devel": true,
+  "globalstrict": true,
+  "laxcomma": true,
+
+  "globals": {
+    "_": true,
+    "Backbone": true,
+    "Application": true,
+    "Download": true,
+    "sly": true
+  }
+}
